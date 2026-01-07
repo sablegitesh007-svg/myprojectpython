@@ -365,7 +365,7 @@ def home():
                 } catch (error) {
                     console.error('Error:', error);
                     document.getElementById('loading').style.display = 'none';
-                    alert('Error making prediction. Please try again.');
+                    alert('Error making prediction.  keep trying.');
                 }
             });
         </script>
